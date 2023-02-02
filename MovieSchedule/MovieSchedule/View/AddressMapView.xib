@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddressMapView" customModule="MovieSchedule" customModuleProvider="target">
+            <connections>
+                <outlet property="mapView" destination="KUe-WX-fcN" id="fxL-XZ-fiX"/>
+                <outlet property="views" destination="iN0-l3-epB" id="gDM-77-W9J"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="AddressMapView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSP-dp-VA6">
+                    <rect key="frame" x="41.5" y="243" width="331" height="420"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gB3-lD-Xus">
+                            <rect key="frame" x="5" y="5" width="33" height="33"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="gB3-lD-Xus" secondAttribute="height" multiplier="1:1" id="YwT-28-g3K"/>
+                            </constraints>
+                            <color key="tintColor" systemColor="systemIndigoColor"/>
+                            <state key="normal" image="arrow.left" catalog="system"/>
+                            <connections>
+                                <action selector="backBtn:" destination="-1" eventType="touchUpInside" id="HkV-oE-0ta"/>
+                            </connections>
+                        </button>
+                        <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KUe-WX-fcN">
+                            <rect key="frame" x="10" y="38" width="311" height="372"/>
+                        </mapView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.9353863441780822" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="aSP-dp-VA6" secondAttribute="height" multiplier="331:420" id="2Vz-c4-Z12"/>
+                        <constraint firstItem="gB3-lD-Xus" firstAttribute="leading" secondItem="aSP-dp-VA6" secondAttribute="leading" constant="5" id="6eQ-gj-mSP"/>
+                        <constraint firstItem="gB3-lD-Xus" firstAttribute="top" secondItem="aSP-dp-VA6" secondAttribute="top" constant="5" id="Dx3-tN-dI0"/>
+                        <constraint firstItem="gB3-lD-Xus" firstAttribute="width" secondItem="aSP-dp-VA6" secondAttribute="width" multiplier="30:300" id="GCG-Td-nxl"/>
+                        <constraint firstItem="KUe-WX-fcN" firstAttribute="leading" secondItem="aSP-dp-VA6" secondAttribute="leading" constant="10" id="Hqr-du-two"/>
+                        <constraint firstItem="KUe-WX-fcN" firstAttribute="top" secondItem="gB3-lD-Xus" secondAttribute="bottom" id="K92-0c-XjP"/>
+                        <constraint firstAttribute="trailing" secondItem="KUe-WX-fcN" secondAttribute="trailing" constant="10" id="TsZ-td-1mJ"/>
+                        <constraint firstAttribute="bottom" secondItem="KUe-WX-fcN" secondAttribute="bottom" constant="10" id="tyc-Hg-egK"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.40100599315068491" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="aSP-dp-VA6" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="5iY-q5-tVA"/>
+                <constraint firstItem="aSP-dp-VA6" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="XS5-4D-vNe"/>
+                <constraint firstItem="aSP-dp-VA6" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="300:375" id="zGb-da-Crk"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
