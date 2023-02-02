@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="MenuCollectionReusableView" reuseIdentifier="MenuCollectionReusableView" id="U6b-Vx-4bR" customClass="MenuCollectionReusableView" customModule="ToEatSnack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kUn-Tk-ygH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zxg-uo-67X">
+                            <rect key="frame" x="10" y="5" width="5" height="20"/>
+                            <color key="backgroundColor" red="0.0" green="0.36474188784619288" blue="0.36474188784619288" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="zxg-uo-67X" secondAttribute="height" multiplier="5:20" id="QO4-Lv-zVl"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6A-It-G3E">
+                            <rect key="frame" x="20" y="15" width="0.0" height="0.0"/>
+                            <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="16"/>
+                            <color key="textColor" red="0.0" green="0.3647418878" blue="0.3647418878" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEm-k5-sLH">
+                            <rect key="frame" x="15" y="0.0" width="350" height="30"/>
+                            <color key="tintColor" red="0.0" green="0.98327773809999997" blue="0.97407253230000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" image="Image_close"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="IEm-k5-sLH" firstAttribute="top" secondItem="kUn-Tk-ygH" secondAttribute="top" id="7Xy-03-dV3"/>
+                        <constraint firstItem="zxg-uo-67X" firstAttribute="centerY" secondItem="kUn-Tk-ygH" secondAttribute="centerY" id="EaV-jU-Uaw"/>
+                        <constraint firstItem="M6A-It-G3E" firstAttribute="centerY" secondItem="zxg-uo-67X" secondAttribute="centerY" id="Sm1-Xh-mMt"/>
+                        <constraint firstItem="IEm-k5-sLH" firstAttribute="leading" secondItem="zxg-uo-67X" secondAttribute="trailing" id="c4l-Qt-ddC"/>
+                        <constraint firstItem="zxg-uo-67X" firstAttribute="leading" secondItem="kUn-Tk-ygH" secondAttribute="leading" constant="10" id="cgd-Ya-bPM"/>
+                        <constraint firstAttribute="bottom" secondItem="IEm-k5-sLH" secondAttribute="bottom" id="qw1-Yf-Ktm"/>
+                        <constraint firstAttribute="trailing" secondItem="IEm-k5-sLH" secondAttribute="trailing" constant="10" id="r0r-RR-NrQ"/>
+                        <constraint firstItem="zxg-uo-67X" firstAttribute="height" secondItem="kUn-Tk-ygH" secondAttribute="height" multiplier="20:30" id="vjt-mo-kgS"/>
+                        <constraint firstItem="M6A-It-G3E" firstAttribute="leading" secondItem="zxg-uo-67X" secondAttribute="trailing" constant="5" id="xay-eP-buo"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.49113819384894974" green="1" blue="0.66037559601291518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kUn-Tk-ygH" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="GQg-dT-tPh"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="kUn-Tk-ygH" secondAttribute="bottom" id="P6j-XB-9uR"/>
+                <constraint firstItem="kUn-Tk-ygH" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="YGw-YF-Vc4"/>
+                <constraint firstAttribute="trailing" secondItem="kUn-Tk-ygH" secondAttribute="trailing" id="inP-Ti-duF"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="expansionButton" destination="IEm-k5-sLH" id="fUz-89-gwq"/>
+                <outlet property="titleLabel" destination="M6A-It-G3E" id="y1n-8D-AU6"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="153.34821428571428"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="Image_close" width="32" height="18"/>
+    </resources>
+</document>
