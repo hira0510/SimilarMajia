@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE44239B2615AD6800AD050B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44239A2615AD6800AD050B /* AppDelegate.swift */; };
+		FE44239D2615AD6800AD050B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44239C2615AD6800AD050B /* SceneDelegate.swift */; };
+		FE4423A22615AD6800AD050B /* CountrysideStay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE4423A02615AD6800AD050B /* CountrysideStay.storyboard */; };
+		FE4423A42615AD6900AD050B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4423A32615AD6900AD050B /* Assets.xcassets */; };
+		FE4423A72615AD6900AD050B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE4423A52615AD6900AD050B /* LaunchScreen.storyboard */; };
+		FE4423B12615ADA500AD050B /* CountrysideStayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423B02615ADA500AD050B /* CountrysideStayRequest.swift */; };
+		FE4423B52615ADB200AD050B /* CountrysideStayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423B42615ADB200AD050B /* CountrysideStayModel.swift */; };
+		FE4423BF2615B0AD00AD050B /* CountrysideStayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423BC2615B0AD00AD050B /* CountrysideStayViewController.swift */; };
+		FE4423C02615B0AD00AD050B /* CountrysideStaySecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423BD2615B0AD00AD050B /* CountrysideStaySecondViewController.swift */; };
+		FE4423C12615B0AD00AD050B /* CountrysideStayMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423BE2615B0AD00AD050B /* CountrysideStayMapViewController.swift */; };
+		FE4423D82615B40C00AD050B /* BlankCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423CC2615B40C00AD050B /* BlankCollectionReusableView.swift */; };
+		FE4423D92615B40C00AD050B /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4423CD2615B40C00AD050B /* ImageCollectionViewCell.xib */; };
+		FE4423DA2615B40C00AD050B /* BlankCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4423CE2615B40C00AD050B /* BlankCollectionReusableView.xib */; };
+		FE4423DB2615B40C00AD050B /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423CF2615B40C00AD050B /* LabelCollectionViewCell.swift */; };
+		FE4423DC2615B40C00AD050B /* SearchLittleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423D02615B40C00AD050B /* SearchLittleCollectionViewCell.swift */; };
+		FE4423DD2615B40C00AD050B /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423D12615B40C00AD050B /* SearchCollectionViewCell.swift */; };
+		FE4423DE2615B40C00AD050B /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423D22615B40C00AD050B /* ImageCollectionViewCell.swift */; };
+		FE4423DF2615B40C00AD050B /* SearchLittleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4423D32615B40C00AD050B /* SearchLittleCollectionViewCell.xib */; };
+		FE4423E02615B40C00AD050B /* LabelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4423D42615B40C00AD050B /* LabelCollectionViewCell.xib */; };
+		FE4423E12615B40C00AD050B /* CountrysideStayCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4423D52615B40C00AD050B /* CountrysideStayCollectionViewCell.xib */; };
+		FE4423E22615B40C00AD050B /* CountrysideStayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423D62615B40C00AD050B /* CountrysideStayCollectionViewCell.swift */; };
+		FE4423E32615B40C00AD050B /* SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4423D72615B40C00AD050B /* SearchCollectionViewCell.xib */; };
+		FE4423E72615B46E00AD050B /* CountrysideStayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423E62615B46E00AD050B /* CountrysideStayViewModel.swift */; };
+		FE4424242615B98400AD050B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FE4423EB2615B98400AD050B /* LICENSE */; };
+		FE4424252615B98400AD050B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FE4423EC2615B98400AD050B /* README.md */; };
+		FE4424262615B98400AD050B /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423EF2615B98400AD050B /* Storage.swift */; };
+		FE4424272615B98400AD050B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423F02615B98400AD050B /* ImageCache.swift */; };
+		FE4424282615B98400AD050B /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423F12615B98400AD050B /* MemoryStorage.swift */; };
+		FE4424292615B98400AD050B /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423F22615B98400AD050B /* DiskStorage.swift */; };
+		FE44242A2615B98400AD050B /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423F32615B98400AD050B /* CacheSerializer.swift */; };
+		FE44242B2615B98400AD050B /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423F42615B98400AD050B /* FormatIndicatedCacheSerializer.swift */; };
+		FE44242C2615B98400AD050B /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423F62615B98400AD050B /* Kingfisher.swift */; };
+		FE44242D2615B98400AD050B /* KingfisherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423F72615B98400AD050B /* KingfisherError.swift */; };
+		FE44242E2615B98400AD050B /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423F92615B98400AD050B /* Source.swift */; };
+		FE44242F2615B98400AD050B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423FA2615B98400AD050B /* Resource.swift */; };
+		FE4424302615B98400AD050B /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423FB2615B98400AD050B /* ImageDataProvider.swift */; };
+		FE4424312615B98400AD050B /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423FC2615B98400AD050B /* KingfisherManager.swift */; };
+		FE4424322615B98400AD050B /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423FD2615B98400AD050B /* Deprecated.swift */; };
+		FE4424332615B98400AD050B /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4423FE2615B98400AD050B /* KingfisherOptionsInfo.swift */; };
+		FE4424342615B98400AD050B /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424002615B98400AD050B /* ImageDownloaderDelegate.swift */; };
+		FE4424352615B98400AD050B /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424012615B98400AD050B /* RequestModifier.swift */; };
+		FE4424362615B98400AD050B /* ImageDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424022615B98400AD050B /* ImageDataProcessor.swift */; };
+		FE4424372615B98400AD050B /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424032615B98400AD050B /* SessionDataTask.swift */; };
+		FE4424382615B98400AD050B /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424042615B98400AD050B /* RedirectHandler.swift */; };
+		FE4424392615B98400AD050B /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424052615B98400AD050B /* ImageDownloader.swift */; };
+		FE44243A2615B98400AD050B /* AuthenticationChallengeResponsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424062615B98400AD050B /* AuthenticationChallengeResponsable.swift */; };
+		FE44243B2615B98400AD050B /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424072615B98400AD050B /* ImageModifier.swift */; };
+		FE44243C2615B98400AD050B /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424082615B98400AD050B /* SessionDelegate.swift */; };
+		FE44243D2615B98400AD050B /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424092615B98400AD050B /* ImagePrefetcher.swift */; };
+		FE44243E2615B98400AD050B /* ImageProgressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44240B2615B98400AD050B /* ImageProgressive.swift */; };
+		FE44243F2615B98400AD050B /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44240C2615B98400AD050B /* Image.swift */; };
+		FE4424402615B98400AD050B /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44240D2615B98400AD050B /* ImageFormat.swift */; };
+		FE4424412615B98400AD050B /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44240E2615B98400AD050B /* ImageDrawing.swift */; };
+		FE4424422615B98400AD050B /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44240F2615B98400AD050B /* ImageTransition.swift */; };
+		FE4424432615B98400AD050B /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424102615B98400AD050B /* ImageProcessor.swift */; };
+		FE4424442615B98400AD050B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424112615B98400AD050B /* Filter.swift */; };
+		FE4424452615B98400AD050B /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424122615B98400AD050B /* Placeholder.swift */; };
+		FE4424462615B98400AD050B /* GIFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424132615B98400AD050B /* GIFAnimatedImage.swift */; };
+		FE4424472615B98400AD050B /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424162615B98400AD050B /* ImageView+Kingfisher.swift */; };
+		FE4424482615B98400AD050B /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424172615B98400AD050B /* UIButton+Kingfisher.swift */; };
+		FE4424492615B98400AD050B /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424192615B98400AD050B /* Indicator.swift */; };
+		FE44244A2615B98400AD050B /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44241A2615B98400AD050B /* AnimatedImageView.swift */; };
+		FE44244B2615B98400AD050B /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44241C2615B98400AD050B /* Runtime.swift */; };
+		FE44244C2615B98400AD050B /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44241D2615B98400AD050B /* CallbackQueue.swift */; };
+		FE44244D2615B98400AD050B /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44241E2615B98400AD050B /* Delegate.swift */; };
+		FE44244E2615B98400AD050B /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44241F2615B98400AD050B /* ExtensionHelpers.swift */; };
+		FE44244F2615B98400AD050B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424202615B98400AD050B /* Result.swift */; };
+		FE4424502615B98400AD050B /* SizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424212615B98400AD050B /* SizeExtensions.swift */; };
+		FE4424512615B98400AD050B /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424222615B98400AD050B /* Box.swift */; };
+		FE4424522615B98400AD050B /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4424232615B98400AD050B /* String+MD5.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE4423972615AD6800AD050B /* CountrysideStay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountrysideStay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE44239A2615AD6800AD050B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE44239C2615AD6800AD050B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE4423A12615AD6800AD050B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CountrysideStay.storyboard; sourceTree = "<group>"; };
+		FE4423A32615AD6900AD050B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE4423A62615AD6900AD050B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE4423A82615AD6900AD050B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE4423B02615ADA500AD050B /* CountrysideStayRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrysideStayRequest.swift; sourceTree = "<group>"; };
+		FE4423B42615ADB200AD050B /* CountrysideStayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrysideStayModel.swift; sourceTree = "<group>"; };
+		FE4423BC2615B0AD00AD050B /* CountrysideStayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountrysideStayViewController.swift; sourceTree = "<group>"; };
+		FE4423BD2615B0AD00AD050B /* CountrysideStaySecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountrysideStaySecondViewController.swift; sourceTree = "<group>"; };
+		FE4423BE2615B0AD00AD050B /* CountrysideStayMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountrysideStayMapViewController.swift; sourceTree = "<group>"; };
+		FE4423CC2615B40C00AD050B /* BlankCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankCollectionReusableView.swift; sourceTree = "<group>"; };
+		FE4423CD2615B40C00AD050B /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		FE4423CE2615B40C00AD050B /* BlankCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlankCollectionReusableView.xib; sourceTree = "<group>"; };
+		FE4423CF2615B40C00AD050B /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE4423D02615B40C00AD050B /* SearchLittleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLittleCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE4423D12615B40C00AD050B /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE4423D22615B40C00AD050B /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE4423D32615B40C00AD050B /* SearchLittleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchLittleCollectionViewCell.xib; sourceTree = "<group>"; };
+		FE4423D42615B40C00AD050B /* LabelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelCollectionViewCell.xib; sourceTree = "<group>"; };
+		FE4423D52615B40C00AD050B /* CountrysideStayCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountrysideStayCollectionViewCell.xib; sourceTree = "<group>"; };
+		FE4423D62615B40C00AD050B /* CountrysideStayCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountrysideStayCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE4423D72615B40C00AD050B /* SearchCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCollectionViewCell.xib; sourceTree = "<group>"; };
+		FE4423E62615B46E00AD050B /* CountrysideStayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrysideStayViewModel.swift; sourceTree = "<group>"; };
+		FE4423EB2615B98400AD050B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE4423EC2615B98400AD050B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE4423EF2615B98400AD050B /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		FE4423F02615B98400AD050B /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		FE4423F12615B98400AD050B /* MemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		FE4423F22615B98400AD050B /* DiskStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskStorage.swift; sourceTree = "<group>"; };
+		FE4423F32615B98400AD050B /* CacheSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheSerializer.swift; sourceTree = "<group>"; };
+		FE4423F42615B98400AD050B /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
+		FE4423F62615B98400AD050B /* Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kingfisher.swift; sourceTree = "<group>"; };
+		FE4423F72615B98400AD050B /* KingfisherError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherError.swift; sourceTree = "<group>"; };
+		FE4423F92615B98400AD050B /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		FE4423FA2615B98400AD050B /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		FE4423FB2615B98400AD050B /* ImageDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataProvider.swift; sourceTree = "<group>"; };
+		FE4423FC2615B98400AD050B /* KingfisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherManager.swift; sourceTree = "<group>"; };
+		FE4423FD2615B98400AD050B /* Deprecated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deprecated.swift; sourceTree = "<group>"; };
+		FE4423FE2615B98400AD050B /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		FE4424002615B98400AD050B /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
+		FE4424012615B98400AD050B /* RequestModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModifier.swift; sourceTree = "<group>"; };
+		FE4424022615B98400AD050B /* ImageDataProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataProcessor.swift; sourceTree = "<group>"; };
+		FE4424032615B98400AD050B /* SessionDataTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDataTask.swift; sourceTree = "<group>"; };
+		FE4424042615B98400AD050B /* RedirectHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedirectHandler.swift; sourceTree = "<group>"; };
+		FE4424052615B98400AD050B /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		FE4424062615B98400AD050B /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
+		FE4424072615B98400AD050B /* ImageModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
+		FE4424082615B98400AD050B /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		FE4424092615B98400AD050B /* ImagePrefetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
+		FE44240B2615B98400AD050B /* ImageProgressive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProgressive.swift; sourceTree = "<group>"; };
+		FE44240C2615B98400AD050B /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		FE44240D2615B98400AD050B /* ImageFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFormat.swift; sourceTree = "<group>"; };
+		FE44240E2615B98400AD050B /* ImageDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDrawing.swift; sourceTree = "<group>"; };
+		FE44240F2615B98400AD050B /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		FE4424102615B98400AD050B /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		FE4424112615B98400AD050B /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		FE4424122615B98400AD050B /* Placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
+		FE4424132615B98400AD050B /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFAnimatedImage.swift; sourceTree = "<group>"; };
+		FE4424142615B98400AD050B /* Kingfisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kingfisher.h; sourceTree = "<group>"; };
+		FE4424162615B98400AD050B /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		FE4424172615B98400AD050B /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		FE4424192615B98400AD050B /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		FE44241A2615B98400AD050B /* AnimatedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
+		FE44241C2615B98400AD050B /* Runtime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Runtime.swift; sourceTree = "<group>"; };
+		FE44241D2615B98400AD050B /* CallbackQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackQueue.swift; sourceTree = "<group>"; };
+		FE44241E2615B98400AD050B /* Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		FE44241F2615B98400AD050B /* ExtensionHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionHelpers.swift; sourceTree = "<group>"; };
+		FE4424202615B98400AD050B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		FE4424212615B98400AD050B /* SizeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeExtensions.swift; sourceTree = "<group>"; };
+		FE4424222615B98400AD050B /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		FE4424232615B98400AD050B /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE4423942615AD6800AD050B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE44238E2615AD6800AD050B = {
+			isa = PBXGroup;
+			children = (
+				FE4423992615AD6800AD050B /* CountrysideStay */,
+				FE4423982615AD6800AD050B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE4423982615AD6800AD050B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423972615AD6800AD050B /* CountrysideStay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE4423992615AD6800AD050B /* CountrysideStay */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423E52615B46200AD050B /* ViewModel */,
+				FE4423C92615B0FA00AD050B /* Model */,
+				FE4423C82615B0F500AD050B /* Request */,
+				FE4423BB2615B0AD00AD050B /* ControllerView */,
+				FE4423CB2615B40C00AD050B /* View */,
+				FE44239A2615AD6800AD050B /* AppDelegate.swift */,
+				FE44239C2615AD6800AD050B /* SceneDelegate.swift */,
+				FE4423A02615AD6800AD050B /* CountrysideStay.storyboard */,
+				FE4423A32615AD6900AD050B /* Assets.xcassets */,
+				FE4423EA2615B98400AD050B /* Kingfisher */,
+				FE4423A52615AD6900AD050B /* LaunchScreen.storyboard */,
+				FE4423A82615AD6900AD050B /* Info.plist */,
+			);
+			path = CountrysideStay;
+			sourceTree = "<group>";
+		};
+		FE4423BB2615B0AD00AD050B /* ControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423BC2615B0AD00AD050B /* CountrysideStayViewController.swift */,
+				FE4423BD2615B0AD00AD050B /* CountrysideStaySecondViewController.swift */,
+				FE4423BE2615B0AD00AD050B /* CountrysideStayMapViewController.swift */,
+			);
+			path = ControllerView;
+			sourceTree = "<group>";
+		};
+		FE4423C82615B0F500AD050B /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423B02615ADA500AD050B /* CountrysideStayRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		FE4423C92615B0FA00AD050B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423B42615ADB200AD050B /* CountrysideStayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE4423CB2615B40C00AD050B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423CF2615B40C00AD050B /* LabelCollectionViewCell.swift */,
+				FE4423D42615B40C00AD050B /* LabelCollectionViewCell.xib */,
+				FE4423CC2615B40C00AD050B /* BlankCollectionReusableView.swift */,
+				FE4423CE2615B40C00AD050B /* BlankCollectionReusableView.xib */,
+				FE4423D22615B40C00AD050B /* ImageCollectionViewCell.swift */,
+				FE4423CD2615B40C00AD050B /* ImageCollectionViewCell.xib */,
+				FE4423D12615B40C00AD050B /* SearchCollectionViewCell.swift */,
+				FE4423D72615B40C00AD050B /* SearchCollectionViewCell.xib */,
+				FE4423D02615B40C00AD050B /* SearchLittleCollectionViewCell.swift */,
+				FE4423D32615B40C00AD050B /* SearchLittleCollectionViewCell.xib */,
+				FE4423D62615B40C00AD050B /* CountrysideStayCollectionViewCell.swift */,
+				FE4423D52615B40C00AD050B /* CountrysideStayCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE4423E52615B46200AD050B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423E62615B46E00AD050B /* CountrysideStayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE4423EA2615B98400AD050B /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423EB2615B98400AD050B /* LICENSE */,
+				FE4423EC2615B98400AD050B /* README.md */,
+				FE4423ED2615B98400AD050B /* Sources */,
+			);
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		FE4423ED2615B98400AD050B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423EE2615B98400AD050B /* Cache */,
+				FE4423F52615B98400AD050B /* General */,
+				FE4423FF2615B98400AD050B /* Networking */,
+				FE44240A2615B98400AD050B /* Image */,
+				FE4424142615B98400AD050B /* Kingfisher.h */,
+				FE4424152615B98400AD050B /* Extensions */,
+				FE4424182615B98400AD050B /* Views */,
+				FE44241B2615B98400AD050B /* Utility */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FE4423EE2615B98400AD050B /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423EF2615B98400AD050B /* Storage.swift */,
+				FE4423F02615B98400AD050B /* ImageCache.swift */,
+				FE4423F12615B98400AD050B /* MemoryStorage.swift */,
+				FE4423F22615B98400AD050B /* DiskStorage.swift */,
+				FE4423F32615B98400AD050B /* CacheSerializer.swift */,
+				FE4423F42615B98400AD050B /* FormatIndicatedCacheSerializer.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		FE4423F52615B98400AD050B /* General */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423F62615B98400AD050B /* Kingfisher.swift */,
+				FE4423F72615B98400AD050B /* KingfisherError.swift */,
+				FE4423F82615B98400AD050B /* ImageSource */,
+				FE4423FC2615B98400AD050B /* KingfisherManager.swift */,
+				FE4423FD2615B98400AD050B /* Deprecated.swift */,
+				FE4423FE2615B98400AD050B /* KingfisherOptionsInfo.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		FE4423F82615B98400AD050B /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				FE4423F92615B98400AD050B /* Source.swift */,
+				FE4423FA2615B98400AD050B /* Resource.swift */,
+				FE4423FB2615B98400AD050B /* ImageDataProvider.swift */,
+			);
+			path = ImageSource;
+			sourceTree = "<group>";
+		};
+		FE4423FF2615B98400AD050B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FE4424002615B98400AD050B /* ImageDownloaderDelegate.swift */,
+				FE4424012615B98400AD050B /* RequestModifier.swift */,
+				FE4424022615B98400AD050B /* ImageDataProcessor.swift */,
+				FE4424032615B98400AD050B /* SessionDataTask.swift */,
+				FE4424042615B98400AD050B /* RedirectHandler.swift */,
+				FE4424052615B98400AD050B /* ImageDownloader.swift */,
+				FE4424062615B98400AD050B /* AuthenticationChallengeResponsable.swift */,
+				FE4424072615B98400AD050B /* ImageModifier.swift */,
+				FE4424082615B98400AD050B /* SessionDelegate.swift */,
+				FE4424092615B98400AD050B /* ImagePrefetcher.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FE44240A2615B98400AD050B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FE44240B2615B98400AD050B /* ImageProgressive.swift */,
+				FE44240C2615B98400AD050B /* Image.swift */,
+				FE44240D2615B98400AD050B /* ImageFormat.swift */,
+				FE44240E2615B98400AD050B /* ImageDrawing.swift */,
+				FE44240F2615B98400AD050B /* ImageTransition.swift */,
+				FE4424102615B98400AD050B /* ImageProcessor.swift */,
+				FE4424112615B98400AD050B /* Filter.swift */,
+				FE4424122615B98400AD050B /* Placeholder.swift */,
+				FE4424132615B98400AD050B /* GIFAnimatedImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		FE4424152615B98400AD050B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE4424162615B98400AD050B /* ImageView+Kingfisher.swift */,
+				FE4424172615B98400AD050B /* UIButton+Kingfisher.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE4424182615B98400AD050B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE4424192615B98400AD050B /* Indicator.swift */,
+				FE44241A2615B98400AD050B /* AnimatedImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE44241B2615B98400AD050B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FE44241C2615B98400AD050B /* Runtime.swift */,
+				FE44241D2615B98400AD050B /* CallbackQueue.swift */,
+				FE44241E2615B98400AD050B /* Delegate.swift */,
+				FE44241F2615B98400AD050B /* ExtensionHelpers.swift */,
+				FE4424202615B98400AD050B /* Result.swift */,
+				FE4424212615B98400AD050B /* SizeExtensions.swift */,
+				FE4424222615B98400AD050B /* Box.swift */,
+				FE4424232615B98400AD050B /* String+MD5.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE4423962615AD6800AD050B /* CountrysideStay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4423AB2615AD6900AD050B /* Build configuration list for PBXNativeTarget "CountrysideStay" */;
+			buildPhases = (
+				FE4423932615AD6800AD050B /* Sources */,
+				FE4423942615AD6800AD050B /* Frameworks */,
+				FE4423952615AD6800AD050B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountrysideStay;
+			productName = CountrysideStay;
+			productReference = FE4423972615AD6800AD050B /* CountrysideStay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE44238F2615AD6800AD050B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FE4423962615AD6800AD050B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = FE4423922615AD6800AD050B /* Build configuration list for PBXProject "CountrysideStay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE44238E2615AD6800AD050B;
+			productRefGroup = FE4423982615AD6800AD050B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE4423962615AD6800AD050B /* CountrysideStay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE4423952615AD6800AD050B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4423DA2615B40C00AD050B /* BlankCollectionReusableView.xib in Resources */,
+				FE4423A72615AD6900AD050B /* LaunchScreen.storyboard in Resources */,
+				FE4423DF2615B40C00AD050B /* SearchLittleCollectionViewCell.xib in Resources */,
+				FE4423E32615B40C00AD050B /* SearchCollectionViewCell.xib in Resources */,
+				FE4424242615B98400AD050B /* LICENSE in Resources */,
+				FE4423A42615AD6900AD050B /* Assets.xcassets in Resources */,
+				FE4423D92615B40C00AD050B /* ImageCollectionViewCell.xib in Resources */,
+				FE4423A22615AD6800AD050B /* CountrysideStay.storyboard in Resources */,
+				FE4423E02615B40C00AD050B /* LabelCollectionViewCell.xib in Resources */,
+				FE4424252615B98400AD050B /* README.md in Resources */,
+				FE4423E12615B40C00AD050B /* CountrysideStayCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE4423932615AD6800AD050B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4424412615B98400AD050B /* ImageDrawing.swift in Sources */,
+				FE4424352615B98400AD050B /* RequestModifier.swift in Sources */,
+				FE4424372615B98400AD050B /* SessionDataTask.swift in Sources */,
+				FE4424282615B98400AD050B /* MemoryStorage.swift in Sources */,
+				FE44244B2615B98400AD050B /* Runtime.swift in Sources */,
+				FE4424382615B98400AD050B /* RedirectHandler.swift in Sources */,
+				FE4424502615B98400AD050B /* SizeExtensions.swift in Sources */,
+				FE4423DC2615B40C00AD050B /* SearchLittleCollectionViewCell.swift in Sources */,
+				FE4424302615B98400AD050B /* ImageDataProvider.swift in Sources */,
+				FE44244E2615B98400AD050B /* ExtensionHelpers.swift in Sources */,
+				FE4423E72615B46E00AD050B /* CountrysideStayViewModel.swift in Sources */,
+				FE4424512615B98400AD050B /* Box.swift in Sources */,
+				FE4424472615B98400AD050B /* ImageView+Kingfisher.swift in Sources */,
+				FE4424272615B98400AD050B /* ImageCache.swift in Sources */,
+				FE4423C12615B0AD00AD050B /* CountrysideStayMapViewController.swift in Sources */,
+				FE44244D2615B98400AD050B /* Delegate.swift in Sources */,
+				FE4424422615B98400AD050B /* ImageTransition.swift in Sources */,
+				FE44243F2615B98400AD050B /* Image.swift in Sources */,
+				FE4423DD2615B40C00AD050B /* SearchCollectionViewCell.swift in Sources */,
+				FE4424392615B98400AD050B /* ImageDownloader.swift in Sources */,
+				FE4423C02615B0AD00AD050B /* CountrysideStaySecondViewController.swift in Sources */,
+				FE4423D82615B40C00AD050B /* BlankCollectionReusableView.swift in Sources */,
+				FE4424442615B98400AD050B /* Filter.swift in Sources */,
+				FE4424312615B98400AD050B /* KingfisherManager.swift in Sources */,
+				FE4423DB2615B40C00AD050B /* LabelCollectionViewCell.swift in Sources */,
+				FE44242F2615B98400AD050B /* Resource.swift in Sources */,
+				FE44242C2615B98400AD050B /* Kingfisher.swift in Sources */,
+				FE4424452615B98400AD050B /* Placeholder.swift in Sources */,
+				FE44244A2615B98400AD050B /* AnimatedImageView.swift in Sources */,
+				FE4423DE2615B40C00AD050B /* ImageCollectionViewCell.swift in Sources */,
+				FE4423E22615B40C00AD050B /* CountrysideStayCollectionViewCell.swift in Sources */,
+				FE4424322615B98400AD050B /* Deprecated.swift in Sources */,
+				FE44242D2615B98400AD050B /* KingfisherError.swift in Sources */,
+				FE44242B2615B98400AD050B /* FormatIndicatedCacheSerializer.swift in Sources */,
+				FE44243C2615B98400AD050B /* SessionDelegate.swift in Sources */,
+				FE4423BF2615B0AD00AD050B /* CountrysideStayViewController.swift in Sources */,
+				FE44239B2615AD6800AD050B /* AppDelegate.swift in Sources */,
+				FE4424332615B98400AD050B /* KingfisherOptionsInfo.swift in Sources */,
+				FE4423B12615ADA500AD050B /* CountrysideStayRequest.swift in Sources */,
+				FE4424342615B98400AD050B /* ImageDownloaderDelegate.swift in Sources */,
+				FE44242E2615B98400AD050B /* Source.swift in Sources */,
+				FE4424292615B98400AD050B /* DiskStorage.swift in Sources */,
+				FE4424402615B98400AD050B /* ImageFormat.swift in Sources */,
+				FE4424432615B98400AD050B /* ImageProcessor.swift in Sources */,
+				FE44242A2615B98400AD050B /* CacheSerializer.swift in Sources */,
+				FE4424362615B98400AD050B /* ImageDataProcessor.swift in Sources */,
+				FE4424522615B98400AD050B /* String+MD5.swift in Sources */,
+				FE44243E2615B98400AD050B /* ImageProgressive.swift in Sources */,
+				FE44244C2615B98400AD050B /* CallbackQueue.swift in Sources */,
+				FE44244F2615B98400AD050B /* Result.swift in Sources */,
+				FE4423B52615ADB200AD050B /* CountrysideStayModel.swift in Sources */,
+				FE44243D2615B98400AD050B /* ImagePrefetcher.swift in Sources */,
+				FE4424492615B98400AD050B /* Indicator.swift in Sources */,
+				FE44243B2615B98400AD050B /* ImageModifier.swift in Sources */,
+				FE4424482615B98400AD050B /* UIButton+Kingfisher.swift in Sources */,
+				FE44239D2615AD6800AD050B /* SceneDelegate.swift in Sources */,
+				FE44243A2615B98400AD050B /* AuthenticationChallengeResponsable.swift in Sources */,
+				FE4424262615B98400AD050B /* Storage.swift in Sources */,
+				FE4424462615B98400AD050B /* GIFAnimatedImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE4423A02615AD6800AD050B /* CountrysideStay.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE4423A12615AD6800AD050B /* Base */,
+			);
+			name = CountrysideStay.storyboard;
+			sourceTree = "<group>";
+		};
+		FE4423A52615AD6900AD050B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE4423A62615AD6900AD050B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE4423A92615AD6900AD050B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE4423AA2615AD6900AD050B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE4423AC2615AD6900AD050B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53NX2X748H;
+				INFOPLIST_FILE = CountrysideStay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fewa.CountrysideStay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE4423AD2615AD6900AD050B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53NX2X748H;
+				INFOPLIST_FILE = CountrysideStay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fewa.CountrysideStay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE4423922615AD6800AD050B /* Build configuration list for PBXProject "CountrysideStay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4423A92615AD6900AD050B /* Debug */,
+				FE4423AA2615AD6900AD050B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4423AB2615AD6900AD050B /* Build configuration list for PBXNativeTarget "CountrysideStay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4423AC2615AD6900AD050B /* Debug */,
+				FE4423AD2615AD6900AD050B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE44238F2615AD6800AD050B /* Project object */;
+}
