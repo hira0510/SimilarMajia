@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CE4BF7FB385A3162FBA1FDB /* Pods_Delicacy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFD47C6EFBEC99633775D49 /* Pods_Delicacy.framework */; };
+		FE2A4BEB2484BFE80095CD4C /* DelicacyFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2A4BEA2484BFE80095CD4C /* DelicacyFavoriteViewController.swift */; };
+		FE8AE8EB2480B7E0009D3627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE8EA2480B7E0009D3627 /* AppDelegate.swift */; };
+		FE8AE8ED2480B7E0009D3627 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE8EC2480B7E0009D3627 /* SceneDelegate.swift */; };
+		FE8AE8F22480B7E0009D3627 /* Delicacy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8AE8F02480B7E0009D3627 /* Delicacy.storyboard */; };
+		FE8AE8F42480B7E3009D3627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8AE8F32480B7E3009D3627 /* Assets.xcassets */; };
+		FE8AE8F72480B7E3009D3627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8AE8F52480B7E3009D3627 /* LaunchScreen.storyboard */; };
+		FE8AE9002480BBA4009D3627 /* DelicacyMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE8FF2480BBA4009D3627 /* DelicacyMainViewController.swift */; };
+		FE8AE9032480BCD8009D3627 /* DelicacyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE9022480BCD8009D3627 /* DelicacyService.swift */; };
+		FE8AE9052480BCE0009D3627 /* DelicacyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE9042480BCE0009D3627 /* DelicacyAPI.swift */; };
+		FE8AE9082480BCF6009D3627 /* DelicacyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE9072480BCF6009D3627 /* DelicacyModel.swift */; };
+		FE8AE90A2480BD06009D3627 /* DelicacyMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE9092480BD06009D3627 /* DelicacyMainViewModel.swift */; };
+		FE8AE9112480BE4D009D3627 /* ObservableType+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE90E2480BE4D009D3627 /* ObservableType+ObjectMapper.swift */; };
+		FE8AE9122480BE4D009D3627 /* Single+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE90F2480BE4D009D3627 /* Single+ObjectMapper.swift */; };
+		FE8AE9132480BE4D009D3627 /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE9102480BE4D009D3627 /* Response+ObjectMapper.swift */; };
+		FE8AE9152480CA57009D3627 /* DelicacySecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE9142480CA57009D3627 /* DelicacySecondViewController.swift */; };
+		FE8AE9182480CB20009D3627 /* DelicacyBlankReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE9162480CB20009D3627 /* DelicacyBlankReusableView.swift */; };
+		FE8AE9192480CB20009D3627 /* DelicacyBlankReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8AE9172480CB20009D3627 /* DelicacyBlankReusableView.xib */; };
+		FE8AE91E2480CB41009D3627 /* DelicacyImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8AE91A2480CB41009D3627 /* DelicacyImageCell.xib */; };
+		FE8AE91F2480CB41009D3627 /* DelicacyImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE91B2480CB41009D3627 /* DelicacyImageCell.swift */; };
+		FE8AE9202480CB41009D3627 /* DelicacyLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8AE91C2480CB41009D3627 /* DelicacyLabelCell.xib */; };
+		FE8AE9212480CB41009D3627 /* DelicacyLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE91D2480CB41009D3627 /* DelicacyLabelCell.swift */; };
+		FE8AE9232480DDA1009D3627 /* DelicacyAddressMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE9222480DDA1009D3627 /* DelicacyAddressMapView.swift */; };
+		FE8AE9252480DDA9009D3627 /* DelicacyAddressMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8AE9242480DDA8009D3627 /* DelicacyAddressMapView.xib */; };
+		FE8AE9282480E043009D3627 /* DelicacyTopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE9262480E043009D3627 /* DelicacyTopCollectionViewCell.swift */; };
+		FE8AE9292480E043009D3627 /* DelicacyTopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8AE9272480E043009D3627 /* DelicacyTopCollectionViewCell.xib */; };
+		FE8AE92C2480E173009D3627 /* DelicacyTopLittleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE92A2480E173009D3627 /* DelicacyTopLittleCell.swift */; };
+		FE8AE92D2480E173009D3627 /* DelicacyTopLittleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8AE92B2480E173009D3627 /* DelicacyTopLittleCell.xib */; };
+		FE8AE9302480E678009D3627 /* DelicacyMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AE92E2480E678009D3627 /* DelicacyMainCollectionViewCell.swift */; };
+		FE8AE9312480E678009D3627 /* DelicacyMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8AE92F2480E678009D3627 /* DelicacyMainCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CFAECE537B436D426577866 /* Pods-Delicacy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delicacy.release.xcconfig"; path = "Target Support Files/Pods-Delicacy/Pods-Delicacy.release.xcconfig"; sourceTree = "<group>"; };
+		7A1BD62315012BAF4F433DEF /* Pods-Delicacy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delicacy.debug.xcconfig"; path = "Target Support Files/Pods-Delicacy/Pods-Delicacy.debug.xcconfig"; sourceTree = "<group>"; };
+		9AFD47C6EFBEC99633775D49 /* Pods_Delicacy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delicacy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2A4BEA2484BFE80095CD4C /* DelicacyFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacyFavoriteViewController.swift; sourceTree = "<group>"; };
+		FE8AE8E72480B7E0009D3627 /* Delicacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delicacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8AE8EA2480B7E0009D3627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE8AE8EC2480B7E0009D3627 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE8AE8F12480B7E0009D3627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Delicacy.storyboard; sourceTree = "<group>"; };
+		FE8AE8F32480B7E3009D3627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE8AE8F62480B7E3009D3627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE8AE8F82480B7E3009D3627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8AE8FF2480BBA4009D3627 /* DelicacyMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacyMainViewController.swift; sourceTree = "<group>"; };
+		FE8AE9022480BCD8009D3627 /* DelicacyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacyService.swift; sourceTree = "<group>"; };
+		FE8AE9042480BCE0009D3627 /* DelicacyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacyAPI.swift; sourceTree = "<group>"; };
+		FE8AE9072480BCF6009D3627 /* DelicacyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacyModel.swift; sourceTree = "<group>"; };
+		FE8AE9092480BD06009D3627 /* DelicacyMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacyMainViewModel.swift; sourceTree = "<group>"; };
+		FE8AE90E2480BE4D009D3627 /* ObservableType+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+ObjectMapper.swift"; sourceTree = "<group>"; };
+		FE8AE90F2480BE4D009D3627 /* Single+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+ObjectMapper.swift"; sourceTree = "<group>"; };
+		FE8AE9102480BE4D009D3627 /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ObjectMapper.swift"; sourceTree = "<group>"; };
+		FE8AE9142480CA57009D3627 /* DelicacySecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacySecondViewController.swift; sourceTree = "<group>"; };
+		FE8AE9162480CB20009D3627 /* DelicacyBlankReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelicacyBlankReusableView.swift; sourceTree = "<group>"; };
+		FE8AE9172480CB20009D3627 /* DelicacyBlankReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelicacyBlankReusableView.xib; sourceTree = "<group>"; };
+		FE8AE91A2480CB41009D3627 /* DelicacyImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelicacyImageCell.xib; sourceTree = "<group>"; };
+		FE8AE91B2480CB41009D3627 /* DelicacyImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelicacyImageCell.swift; sourceTree = "<group>"; };
+		FE8AE91C2480CB41009D3627 /* DelicacyLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelicacyLabelCell.xib; sourceTree = "<group>"; };
+		FE8AE91D2480CB41009D3627 /* DelicacyLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelicacyLabelCell.swift; sourceTree = "<group>"; };
+		FE8AE9222480DDA1009D3627 /* DelicacyAddressMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacyAddressMapView.swift; sourceTree = "<group>"; };
+		FE8AE9242480DDA8009D3627 /* DelicacyAddressMapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DelicacyAddressMapView.xib; sourceTree = "<group>"; };
+		FE8AE9262480E043009D3627 /* DelicacyTopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacyTopCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE8AE9272480E043009D3627 /* DelicacyTopCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DelicacyTopCollectionViewCell.xib; sourceTree = "<group>"; };
+		FE8AE92A2480E173009D3627 /* DelicacyTopLittleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacyTopLittleCell.swift; sourceTree = "<group>"; };
+		FE8AE92B2480E173009D3627 /* DelicacyTopLittleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DelicacyTopLittleCell.xib; sourceTree = "<group>"; };
+		FE8AE92E2480E678009D3627 /* DelicacyMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelicacyMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE8AE92F2480E678009D3627 /* DelicacyMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DelicacyMainCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE8AE8E42480B7E0009D3627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE4BF7FB385A3162FBA1FDB /* Pods_Delicacy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		624B07512E7147A624C776B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A1BD62315012BAF4F433DEF /* Pods-Delicacy.debug.xcconfig */,
+				1CFAECE537B436D426577866 /* Pods-Delicacy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C400F5B6841FFC9985E994D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AFD47C6EFBEC99633775D49 /* Pods_Delicacy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE8AE8DE2480B7E0009D3627 = {
+			isa = PBXGroup;
+			children = (
+				FE8AE8E92480B7E0009D3627 /* Delicacy */,
+				FE8AE8E82480B7E0009D3627 /* Products */,
+				624B07512E7147A624C776B8 /* Pods */,
+				C400F5B6841FFC9985E994D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE8AE8E82480B7E0009D3627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE8AE8E72480B7E0009D3627 /* Delicacy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE8AE8E92480B7E0009D3627 /* Delicacy */ = {
+			isa = PBXGroup;
+			children = (
+				FE8AE90D2480BE4D009D3627 /* Moya_ObjectMapper */,
+				FE8AE90C2480BD16009D3627 /* View */,
+				FE8AE90B2480BD0C009D3627 /* ViewModel */,
+				FE8AE9062480BCEA009D3627 /* Model */,
+				FE8AE9012480BCB1009D3627 /* Https */,
+				FE8AE8FE2480BB91009D3627 /* ControllerView */,
+				FE8AE8EA2480B7E0009D3627 /* AppDelegate.swift */,
+				FE8AE8EC2480B7E0009D3627 /* SceneDelegate.swift */,
+				FE8AE8F02480B7E0009D3627 /* Delicacy.storyboard */,
+				FE8AE8F32480B7E3009D3627 /* Assets.xcassets */,
+				FE8AE8F52480B7E3009D3627 /* LaunchScreen.storyboard */,
+				FE8AE8F82480B7E3009D3627 /* Info.plist */,
+			);
+			path = Delicacy;
+			sourceTree = "<group>";
+		};
+		FE8AE8FE2480BB91009D3627 /* ControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				FE8AE8FF2480BBA4009D3627 /* DelicacyMainViewController.swift */,
+				FE8AE9142480CA57009D3627 /* DelicacySecondViewController.swift */,
+				FE2A4BEA2484BFE80095CD4C /* DelicacyFavoriteViewController.swift */,
+			);
+			path = ControllerView;
+			sourceTree = "<group>";
+		};
+		FE8AE9012480BCB1009D3627 /* Https */ = {
+			isa = PBXGroup;
+			children = (
+				FE8AE9022480BCD8009D3627 /* DelicacyService.swift */,
+				FE8AE9042480BCE0009D3627 /* DelicacyAPI.swift */,
+			);
+			path = Https;
+			sourceTree = "<group>";
+		};
+		FE8AE9062480BCEA009D3627 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE8AE9072480BCF6009D3627 /* DelicacyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE8AE90B2480BD0C009D3627 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FE8AE9092480BD06009D3627 /* DelicacyMainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE8AE90C2480BD16009D3627 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE8AE9222480DDA1009D3627 /* DelicacyAddressMapView.swift */,
+				FE8AE9242480DDA8009D3627 /* DelicacyAddressMapView.xib */,
+				FE8AE91B2480CB41009D3627 /* DelicacyImageCell.swift */,
+				FE8AE91A2480CB41009D3627 /* DelicacyImageCell.xib */,
+				FE8AE91D2480CB41009D3627 /* DelicacyLabelCell.swift */,
+				FE8AE91C2480CB41009D3627 /* DelicacyLabelCell.xib */,
+				FE8AE9162480CB20009D3627 /* DelicacyBlankReusableView.swift */,
+				FE8AE9172480CB20009D3627 /* DelicacyBlankReusableView.xib */,
+				FE8AE9262480E043009D3627 /* DelicacyTopCollectionViewCell.swift */,
+				FE8AE9272480E043009D3627 /* DelicacyTopCollectionViewCell.xib */,
+				FE8AE92A2480E173009D3627 /* DelicacyTopLittleCell.swift */,
+				FE8AE92B2480E173009D3627 /* DelicacyTopLittleCell.xib */,
+				FE8AE92E2480E678009D3627 /* DelicacyMainCollectionViewCell.swift */,
+				FE8AE92F2480E678009D3627 /* DelicacyMainCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE8AE90D2480BE4D009D3627 /* Moya_ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				FE8AE90E2480BE4D009D3627 /* ObservableType+ObjectMapper.swift */,
+				FE8AE90F2480BE4D009D3627 /* Single+ObjectMapper.swift */,
+				FE8AE9102480BE4D009D3627 /* Response+ObjectMapper.swift */,
+			);
+			path = Moya_ObjectMapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE8AE8E62480B7E0009D3627 /* Delicacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8AE8FB2480B7E3009D3627 /* Build configuration list for PBXNativeTarget "Delicacy" */;
+			buildPhases = (
+				0772EEDE115F8C89E7E3F798 /* [CP] Check Pods Manifest.lock */,
+				FE8AE8E32480B7E0009D3627 /* Sources */,
+				FE8AE8E42480B7E0009D3627 /* Frameworks */,
+				FE8AE8E52480B7E0009D3627 /* Resources */,
+				95ABEAEE6F54F8510CBB83D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Delicacy;
+			productName = Delicacy;
+			productReference = FE8AE8E72480B7E0009D3627 /* Delicacy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE8AE8DF2480B7E0009D3627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = 1;
+				TargetAttributes = {
+					FE8AE8E62480B7E0009D3627 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FE8AE8E22480B7E0009D3627 /* Build configuration list for PBXProject "Delicacy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE8AE8DE2480B7E0009D3627;
+			productRefGroup = FE8AE8E82480B7E0009D3627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE8AE8E62480B7E0009D3627 /* Delicacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE8AE8E52480B7E0009D3627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8AE8F72480B7E3009D3627 /* LaunchScreen.storyboard in Resources */,
+				FE8AE9202480CB41009D3627 /* DelicacyLabelCell.xib in Resources */,
+				FE8AE9252480DDA9009D3627 /* DelicacyAddressMapView.xib in Resources */,
+				FE8AE9312480E678009D3627 /* DelicacyMainCollectionViewCell.xib in Resources */,
+				FE8AE8F42480B7E3009D3627 /* Assets.xcassets in Resources */,
+				FE8AE9192480CB20009D3627 /* DelicacyBlankReusableView.xib in Resources */,
+				FE8AE92D2480E173009D3627 /* DelicacyTopLittleCell.xib in Resources */,
+				FE8AE8F22480B7E0009D3627 /* Delicacy.storyboard in Resources */,
+				FE8AE9292480E043009D3627 /* DelicacyTopCollectionViewCell.xib in Resources */,
+				FE8AE91E2480CB41009D3627 /* DelicacyImageCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0772EEDE115F8C89E7E3F798 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delicacy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95ABEAEE6F54F8510CBB83D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delicacy/Pods-Delicacy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delicacy/Pods-Delicacy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delicacy/Pods-Delicacy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE8AE8E32480B7E0009D3627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8AE90A2480BD06009D3627 /* DelicacyMainViewModel.swift in Sources */,
+				FE8AE9232480DDA1009D3627 /* DelicacyAddressMapView.swift in Sources */,
+				FE8AE8EB2480B7E0009D3627 /* AppDelegate.swift in Sources */,
+				FE8AE9302480E678009D3627 /* DelicacyMainCollectionViewCell.swift in Sources */,
+				FE8AE91F2480CB41009D3627 /* DelicacyImageCell.swift in Sources */,
+				FE8AE9182480CB20009D3627 /* DelicacyBlankReusableView.swift in Sources */,
+				FE8AE9052480BCE0009D3627 /* DelicacyAPI.swift in Sources */,
+				FE8AE9282480E043009D3627 /* DelicacyTopCollectionViewCell.swift in Sources */,
+				FE2A4BEB2484BFE80095CD4C /* DelicacyFavoriteViewController.swift in Sources */,
+				FE8AE8ED2480B7E0009D3627 /* SceneDelegate.swift in Sources */,
+				FE8AE92C2480E173009D3627 /* DelicacyTopLittleCell.swift in Sources */,
+				FE8AE9122480BE4D009D3627 /* Single+ObjectMapper.swift in Sources */,
+				FE8AE9002480BBA4009D3627 /* DelicacyMainViewController.swift in Sources */,
+				FE8AE9032480BCD8009D3627 /* DelicacyService.swift in Sources */,
+				FE8AE9212480CB41009D3627 /* DelicacyLabelCell.swift in Sources */,
+				FE8AE9112480BE4D009D3627 /* ObservableType+ObjectMapper.swift in Sources */,
+				FE8AE9132480BE4D009D3627 /* Response+ObjectMapper.swift in Sources */,
+				FE8AE9082480BCF6009D3627 /* DelicacyModel.swift in Sources */,
+				FE8AE9152480CA57009D3627 /* DelicacySecondViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE8AE8F02480B7E0009D3627 /* Delicacy.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8AE8F12480B7E0009D3627 /* Base */,
+			);
+			name = Delicacy.storyboard;
+			sourceTree = "<group>";
+		};
+		FE8AE8F52480B7E3009D3627 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8AE8F62480B7E3009D3627 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE8AE8F92480B7E3009D3627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE8AE8FA2480B7E3009D3627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE8AE8FC2480B7E3009D3627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1BD62315012BAF4F433DEF /* Pods-Delicacy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0601;
+				DEVELOPMENT_TEAM = 53NX2X748H;
+				INFOPLIST_FILE = Delicacy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fewa.CountrysideStay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE8AE8FD2480B7E3009D3627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFAECE537B436D426577866 /* Pods-Delicacy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0601;
+				DEVELOPMENT_TEAM = J86D5LTY88;
+				INFOPLIST_FILE = Delicacy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fewa.CountrysideStay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE8AE8E22480B7E0009D3627 /* Build configuration list for PBXProject "Delicacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8AE8F92480B7E3009D3627 /* Debug */,
+				FE8AE8FA2480B7E3009D3627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8AE8FB2480B7E3009D3627 /* Build configuration list for PBXNativeTarget "Delicacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8AE8FC2480B7E3009D3627 /* Debug */,
+				FE8AE8FD2480B7E3009D3627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE8AE8DF2480B7E0009D3627 /* Project object */;
+}
